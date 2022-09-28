@@ -1,4 +1,6 @@
-# Welcome to your CDK TypeScript project
+sample app for use in AWS Infrastructure with Typescript PluralSight course (David Tucker)
+
+---
 
 This is a blank project for CDK development with TypeScript.
 
