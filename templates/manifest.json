@@ -1,0 +1,117 @@
+{
+  "version": "20.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "TypescriptCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "TypescriptCdkStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/TypescriptCdkStack/DocumentsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DocumentsBucket9EC9DEB9",
+            "trace": [
+              "new Bucket (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1676:22)",
+              "new TypescriptCdkStack (/Users/fred/Desktop/typescript-cdk/lib/typescript-cdk-stack.ts:8:20)",
+              "Object.<anonymous> (/Users/fred/Desktop/typescript-cdk/bin/typescript-cdk.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/DocumentsBucketNameExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DocumentsBucketNameExport",
+            "trace": [
+              "new TypescriptCdkStack (/Users/fred/Desktop/typescript-cdk/lib/typescript-cdk-stack.ts:12:5)",
+              "Object.<anonymous> (/Users/fred/Desktop/typescript-cdk/bin/typescript-cdk.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/fred/Desktop/typescript-cdk/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/app.ts:131:45)",
+              "Object.onceWrapper (node:events:642:26)",
+              "process.emit (node:events:527:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/fred/Desktop/typescript-cdk/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+            ]
+          }
+        ],
+        "/TypescriptCdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/fred/Desktop/typescript-cdk/node_modules/@aws-cdk/core/lib/app.ts:131:45)",
+              "Object.onceWrapper (node:events:642:26)",
+              "process.emit (node:events:527:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/fred/Desktop/typescript-cdk/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+            ]
+          }
+        ]
+      },
+      "displayName": "TypescriptCdkStack"
+    }
+  }
+}
